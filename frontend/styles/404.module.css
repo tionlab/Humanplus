@@ -1,0 +1,166 @@
+@font-face {
+    font-family: "Pretendard-Regular";
+    src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+        format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "KOTRA_BOLD-Bold";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.1/KOTRA_BOLD-Bold.woff")
+        format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media all and (min-width: 650px) and (max-width: 1023px) {
+    .container {
+        background-color: #a2ceff;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .alert {
+        white-space: pre-line;
+        color: #000000;
+        padding: 1rem 0;
+        position: fixed;
+        margin-bottom: 100%;
+        text-align: center;
+        font-size: 150%;
+        font-weight: bold;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        font-family: "Pretendard-Regular", sans-serif;
+    }
+
+    .back {
+        text-decoration: underline;
+        white-space: pre-line;
+        color: #000000;
+        padding: 1rem 0;
+        position: fixed;
+        margin-bottom: 80%;
+        text-align: center;
+        font-size: 200%;
+        font-weight: bold;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        font-family: "Pretendard-Regular", sans-serif;
+    }
+
+    .name {
+        background-color: #00072e;
+        color: #fff;
+        padding: 1.1rem 0;
+        position: fixed;
+        text-align: center;
+        font-size: 300%;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        font-family: "KOTRA_BOLD-Bold", sans-serif;
+    }
+
+    .hint {
+        background-color: #ffe8b1;
+        border-radius: 100px;
+        font-size: 110%;
+        white-space: pre-line;
+        padding: 1rem 0;
+        margin-right: 3%;
+        margin-bottom: 25%;
+        position: fixed;
+        text-align: center;
+        bottom: 0;
+        right: 0;
+        width: 50%;
+        z-index: 1000;
+        font-family: "KOTRA_BOLD-Bold", sans-serif;
+    }
+}
+
+/* 모바일 가로, 모바일 세로 (해상도 480px ~ 649px)*/
+@media all and (max-width: 649px) {
+    .container {
+        background-color: #a2ceff;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .alert {
+        white-space: pre-line;
+        color: #000000;
+        padding: 1rem 0;
+        position: fixed;
+        margin-bottom: 100%;
+        text-align: center;
+        font-size: 130%;
+        font-weight: bold;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        font-family: "Pretendard-Regular", sans-serif;
+    }
+
+    .back {
+        text-decoration: underline;
+        white-space: pre-line;
+        color: #000000;
+        padding: 1rem 0;
+        position: fixed;
+        margin-bottom: 80%;
+        text-align: center;
+        font-size: 130%;
+        font-weight: bold;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        font-family: "Pretendard-Regular", sans-serif;
+    }
+
+    .name {
+        background-color: #00072e;
+        color: #fff;
+        padding: 1.1rem 0;
+        position: fixed;
+        text-align: center;
+        font-size: 300%;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        font-family: "KOTRA_BOLD-Bold", sans-serif;
+    }
+
+    .hint {
+        background-color: #ffe8b1;
+        border-radius: 100px;
+        font-size: 110%;
+        white-space: pre-line;
+        padding: 1rem 0;
+        margin-right: 3%;
+        margin-bottom: 25%;
+        position: fixed;
+        text-align: center;
+        bottom: 0;
+        right: 0;
+        width: 50%;
+        z-index: 1000;
+        font-family: "KOTRA_BOLD-Bold", sans-serif;
+    }
+}

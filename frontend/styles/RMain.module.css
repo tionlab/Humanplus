@@ -1,0 +1,115 @@
+@font-face {
+    font-family: "Pretendard-Regular";
+    src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+        format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "KOTRA_BOLD-Bold";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.1/KOTRA_BOLD-Bold.woff")
+        format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media all and (min-width: 650px) and (max-width: 1023px) {
+    .report {
+        margin-bottom: 1rem;
+        position: fixed;
+        text-align: center;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        font-family: "KOTRA_BOLD-Bold", sans-serif;
+    }
+
+    .bar {
+        background-color: #5a9180;
+        color: #fff;
+        padding: 1rem 0;
+        position: fixed;
+        text-align: left;
+        font-weight: bold;
+        bottom: 0;
+        left: 0;
+        padding-left: 5%;
+        width: 100%;
+        z-index: 1000;
+        font-family: "Pretendard-Regular", sans-serif;
+    }
+
+    .name {
+        background-color: #00072e;
+        color: #fff;
+        padding: 1.1rem 0;
+        position: fixed;
+        text-align: center;
+        font-size: 300%;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        font-family: "KOTRA_BOLD-Bold", sans-serif;
+    }
+
+    .user {
+        font-size: 1.1rem;
+    }
+
+    .score {
+        font-size: 1.7rem;
+    }
+}
+
+@media all and (max-width: 649px) {
+    .report {
+        margin-bottom: 1rem;
+        position: fixed;
+        text-align: center;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        font-family: "KOTRA_BOLD-Bold", sans-serif;
+    }
+
+    .bar {
+        background-color: #5a9180;
+        color: #fff;
+        padding: 1rem 0;
+        position: fixed;
+        text-align: left;
+        font-weight: bold;
+        bottom: 0;
+        left: 0;
+        padding-left: 5%;
+        width: 100%;
+        z-index: 1000;
+        font-family: "Pretendard-Regular", sans-serif;
+    }
+
+    .name {
+        background-color: #00072e;
+        color: #fff;
+        padding: 1.1rem 0;
+        position: fixed;
+        text-align: center;
+        font-size: 300%;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        font-family: "KOTRA_BOLD-Bold", sans-serif;
+    }
+
+    .user {
+        font-size: 1.1rem;
+    }
+
+    .score {
+        font-size: 1.7rem;
+    }
+}

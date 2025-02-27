@@ -1,0 +1,280 @@
+@font-face {
+    font-family: "Pretendard-Regular";
+    src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+        format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "KOTRA_BOLD-Bold";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.1/KOTRA_BOLD-Bold.woff")
+        format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media all and (min-width: 650px) and (max-width: 1023px) {
+    .container {
+        background-color: #a2ceff;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .bar {
+        background-color: #5a9180;
+        color: #fff;
+        padding: 1rem 0;
+        position: fixed;
+        text-align: center;
+        font-size: 200%;
+        font-weight: bold;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        font-family: "Pretendard-Regular", sans-serif;
+    }
+
+    .name {
+        background-color: #00072e;
+        color: #fff;
+        padding: 1.1rem 0;
+        position: fixed;
+        text-align: center;
+        font-size: 300%;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        font-family: "KOTRA_BOLD-Bold", sans-serif;
+    }
+
+    .nick_welcome {
+        color: #000000;
+        margin-top: 7rem;
+        padding: 1.1rem 0;
+        position: fixed;
+        text-align: center;
+        font-size: 100%;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        font-family: "KOTRA_BOLD-Bold", sans-serif;
+    }
+
+    .main_hr {
+        border: 0px;
+        border-top: 3px dashed #000000;
+    }
+
+    .sub_title {
+        background-color: #fffaba;
+        color: #000000;
+        margin-top: 19rem;
+        margin-left: 10%;
+        padding: 1rem 0;
+        border-radius: 20px;
+        position: fixed;
+        text-align: center;
+        font-size: 250%;
+        top: 0;
+        left: 0;
+        width: 80%;
+        z-index: 1000;
+        text-decoration: underline;
+        font-family: "KOTRA_BOLD-Bold", sans-serif;
+        font-weight: bold;
+    }
+
+    .ment {
+        color: #000000;
+        margin-top: 34rem;
+        margin-left: 5%;
+        padding: 1.1rem 0;
+        position: fixed;
+        text-align: left;
+        font-size: 4.4vw;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        font-family: "KOTRA_BOLD-Bold", sans-serif;
+        font-weight: bold;
+    }
+
+    .sel {
+        background-color: #107403;
+        color: #ffffff;
+        margin-top: 44rem;
+        margin-left: 5%;
+        padding: 0.8rem 0;
+        border-radius: 20px;
+        position: fixed;
+        text-align: center;
+        font-size: 160%;
+        top: 0;
+        left: 0;
+        width: 60%;
+        z-index: 1000;
+        text-decoration: underline;
+        font-family: "KOTRA_BOLD-Bold", sans-serif;
+        font-weight: bold;
+    }
+
+    .back {
+        background-color: #fffaba;
+        color: #000000;
+        margin-bottom: 6%;
+        margin-right: 6%;
+        padding: 0.4rem 0;
+        border-radius: 20px;
+        position: fixed;
+        text-align: center;
+        bottom: 0;
+        right: 0;
+        width: 10rem;
+        z-index: 1000;
+        font-size: 200%;
+        text-decoration: underline;
+        font-family: "KOTRA_BOLD-Bold", sans-serif;
+        font-weight: bold;
+    }
+}
+
+@media all and (max-width: 649px) {
+    .container {
+        background-color: #a2ceff;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .bar {
+        background-color: #5a9180;
+        color: #fff;
+        padding: 1rem 0;
+        position: fixed;
+        text-align: center;
+        font-size: 200%;
+        font-weight: bold;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        font-family: "Pretendard-Regular", sans-serif;
+    }
+
+    .name {
+        background-color: #00072e;
+        color: #fff;
+        padding: 1.1rem 0;
+        position: fixed;
+        text-align: center;
+        font-size: 300%;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        font-family: "KOTRA_BOLD-Bold", sans-serif;
+    }
+
+    .nick_welcome {
+        color: #000000;
+        margin-top: 6rem;
+        padding: 1.1rem 0;
+        position: fixed;
+        text-align: center;
+        font-size: 100%;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        font-family: "KOTRA_BOLD-Bold", sans-serif;
+    }
+
+    .main_hr {
+        border: 0px;
+        border-top: 3px dashed #000000;
+    }
+
+    .sub_title {
+        background-color: #fffaba;
+        color: #000000;
+        margin-top: 18rem;
+        margin-left: 10%;
+        padding: 1rem 0;
+        border-radius: 20px;
+        position: fixed;
+        text-align: center;
+        font-size: 150%;
+        top: 0;
+        left: 0;
+        width: 80%;
+        z-index: 1000;
+        font-size: xx-large;
+        text-decoration: underline;
+        font-family: "KOTRA_BOLD-Bold", sans-serif;
+        font-weight: bold;
+    }
+
+    .ment {
+        color: #000000;
+        margin-top: 28rem;
+        margin-left: 5%;
+        padding: 1.1rem 0;
+        position: fixed;
+        text-align: left;
+        font-size: 5.3vw;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        font-family: "KOTRA_BOLD-Bold", sans-serif;
+        font-weight: bold;
+    }
+
+    .sel {
+        background-color: #107403;
+        color: #ffffff;
+        margin-top: 34rem;
+        margin-left: 5%;
+        padding: 0.8rem 0;
+        border-radius: 20px;
+        position: fixed;
+        text-align: center;
+        font-size: 140%;
+        top: 0;
+        left: 0;
+        width: 60%;
+        z-index: 1000;
+        text-decoration: underline;
+        font-family: "KOTRA_BOLD-Bold", sans-serif;
+        font-weight: bold;
+    }
+
+    .back {
+        background-color: #fffaba;
+        color: #000000;
+        margin-bottom: 6%;
+        margin-right: 6%;
+        padding: 0.4rem 0;
+        border-radius: 20px;
+        position: fixed;
+        text-align: center;
+        bottom: 0;
+        right: 0;
+        width: 8rem;
+        z-index: 1000;
+        font-size: x-large;
+        text-decoration: underline;
+        font-family: "KOTRA_BOLD-Bold", sans-serif;
+        font-weight: bold;
+    }
+}
